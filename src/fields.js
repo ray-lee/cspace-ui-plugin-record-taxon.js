@@ -463,6 +463,7 @@ export default (configContext) => {
         },
         taxonIsNamedHybrid: {
           [config]: {
+            dataType: DATA_TYPE_BOOL,
             messages: defineMessages({
               name: {
                 id: 'field.taxon_common.taxonIsNamedHybrid.name',
