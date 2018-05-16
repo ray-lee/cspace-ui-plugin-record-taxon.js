@@ -8,7 +8,7 @@ import serviceConfig from './serviceConfig';
 import title from './title';
 import vocabularies from './vocabularies';
 
-export default () => configContext => ({
+module.exports = () => configContext => ({
   optionLists,
   recordTypes: {
     taxon: {
