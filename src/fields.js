@@ -3,12 +3,13 @@ import { defineMessages } from 'react-intl';
 export default (configContext) => {
   const {
     AutocompleteInput,
+    CheckboxInput,
     CompoundInput,
     HierarchyInput,
     OptionPickerInput,
+    RichTextInput,
     TextInput,
     TermPickerInput,
-    CheckboxInput,
   } = configContext.inputComponents;
 
   const {
@@ -135,7 +136,7 @@ export default (configContext) => {
                 messages: defineMessages({
                   name: {
                     id: 'field.taxon_common.termName.name',
-                    defaultMessage: 'Formatted Display Name',
+                    defaultMessage: 'Name',
                   },
                 }),
                 view: {
@@ -310,7 +311,7 @@ export default (configContext) => {
                   },
                 }),
                 view: {
-                  type: TextInput,
+                  type: RichTextInput,
                 },
               },
             },
