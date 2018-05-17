@@ -25,7 +25,7 @@ const template = (configContext) => {
             <Panel>
               <Row>
                 <Field name="termDisplayName" />
-                <Field name="termFormattedDisplayName" />
+                <Field name="termName" />
                 <Field name="termQualifier" />
                 <Field name="termStatus" />
               </Row>
