@@ -34,6 +34,10 @@ export default (configContext) => {
       },
       {
         op: OP_EQ,
+        path: 'ns2:taxon_common/taxonCurrency',
+      },
+      {
+        op: OP_EQ,
         path: 'ns2:taxon_common/taxonAuthorGroupList/taxonAuthorGroup/taxonAuthor',
       },
       {

@@ -1,6 +1,6 @@
 {
   "name": "cspace-ui-plugin-record-taxon",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Taxon record plugin for the CollectionSpace UI",
   "author": "",
   "license": "ECL-2.0",
