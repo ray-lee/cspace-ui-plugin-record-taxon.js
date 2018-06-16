@@ -26,13 +26,16 @@ const template = (configContext) => {
               <Row>
                 <Field name="termDisplayName" />
                 <Field name="termFormattedDisplayName" />
-                <Field name="termQualifier" />
-                <Field name="termStatus" />
               </Row>
 
               <Row>
+                <Field name="termQualifier" />
+                <Field name="termStatus" />
                 <Field name="termType" />
                 <Field name="termFlag" />
+              </Row>
+
+              <Row>
                 <Field name="taxonomicStatus" />
                 <Field name="termLanguage" />
                 <Field name="termPrefForLang" />
