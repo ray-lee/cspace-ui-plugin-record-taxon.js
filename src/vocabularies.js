@@ -13,6 +13,11 @@ export default {
         description: 'The name of a collection of records from the all taxon vocabulary.',
         defaultMessage: 'All Taxonomic Names',
       },
+      itemName: {
+        id: 'vocab.taxon.all.itemName',
+        description: 'The name of a record from the vocabulary.',
+        defaultMessage: 'Taxonomic Name',
+      },
     }),
     serviceConfig: {
       servicePath: '_ALL_',
@@ -31,6 +36,11 @@ export default {
         description: 'The name of a collection of records from the local taxon vocabulary.',
         defaultMessage: 'Local Taxonomic Names',
       },
+      itemName: {
+        id: 'vocab.taxon.local.itemName',
+        description: 'The name of a record from the vocabulary.',
+        defaultMessage: 'Local Taxonomic Name',
+      },
     }),
     serviceConfig: {
       servicePath: 'urn:cspace:name(taxon)',
@@ -48,6 +58,11 @@ export default {
         id: 'vocab.taxon.common.collectionName',
         description: 'The name of a collection of records from the common taxon vocabulary.',
         defaultMessage: 'Common Taxonomic Names',
+      },
+      itemName: {
+        id: 'vocab.taxon.common.itemName',
+        description: 'The name of a record from the vocabulary.',
+        defaultMessage: 'Common Taxonomic Name',
       },
     }),
     serviceConfig: {
