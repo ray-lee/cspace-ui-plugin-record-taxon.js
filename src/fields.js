@@ -74,21 +74,57 @@ export default (configContext) => {
         csid: {
           [config]: {
             cloneable: false,
+            messages: defineMessages({
+              name: {
+                id: 'field.taxon_common.csid.name',
+                defaultMessage: 'System CSID',
+              },
+            }),
+            view: {
+              type: TextInput,
+            },
           },
         },
         inAuthority: {
           [config]: {
             cloneable: false,
+            messages: defineMessages({
+              name: {
+                id: 'field.taxon_common.inAuthority.name',
+                defaultMessage: 'System authority CSID',
+              },
+            }),
+            view: {
+              type: TextInput,
+            },
           },
         },
         refName: {
           [config]: {
             cloneable: false,
+            messages: defineMessages({
+              name: {
+                id: 'field.taxon_common.refName.name',
+                defaultMessage: 'System ref name',
+              },
+            }),
+            view: {
+              type: TextInput,
+            },
           },
         },
         shortIdentifier: {
           [config]: {
             cloneable: false,
+            messages: defineMessages({
+              name: {
+                id: 'field.taxon_common.shortIdentifier.name',
+                defaultMessage: 'System short ID',
+              },
+            }),
+            view: {
+              type: TextInput,
+            },
           },
         },
         taxonTermGroupList: {
@@ -120,6 +156,10 @@ export default (configContext) => {
             termDisplayName: {
               [config]: {
                 messages: defineMessages({
+                  fullName: {
+                    id: 'field.taxon_common.termDisplayName.fullName',
+                    defaultMessage: 'Term display name',
+                  },
                   name: {
                     id: 'field.taxon_common.termDisplayName.name',
                     defaultMessage: 'Display name',
@@ -134,6 +174,10 @@ export default (configContext) => {
             termName: {
               [config]: {
                 messages: defineMessages({
+                  fullName: {
+                    id: 'field.taxon_common.termName.fullName',
+                    defaultMessage: 'Term name',
+                  },
                   name: {
                     id: 'field.taxon_common.termName.name',
                     defaultMessage: 'Name',
@@ -147,6 +191,10 @@ export default (configContext) => {
             termType: {
               [config]: {
                 messages: defineMessages({
+                  fullName: {
+                    id: 'field.taxon_common.termType.fullName',
+                    defaultMessage: 'Term type',
+                  },
                   name: {
                     id: 'field.taxon_common.termType.name',
                     defaultMessage: 'Type',
@@ -183,6 +231,10 @@ export default (configContext) => {
             termStatus: {
               [config]: {
                 messages: defineMessages({
+                  fullName: {
+                    id: 'field.taxon_common.termStatus.fullName',
+                    defaultMessage: 'Term status',
+                  },
                   name: {
                     id: 'field.taxon_common.termStatus.name',
                     defaultMessage: 'Status',
@@ -199,6 +251,10 @@ export default (configContext) => {
             termQualifier: {
               [config]: {
                 messages: defineMessages({
+                  fullName: {
+                    id: 'field.taxon_common.termQualifier.fullName',
+                    defaultMessage: 'Term qualifier',
+                  },
                   name: {
                     id: 'field.taxon_common.termQualifier.name',
                     defaultMessage: 'Qualifier',
@@ -233,6 +289,10 @@ export default (configContext) => {
               [config]: {
                 dataType: DATA_TYPE_BOOL,
                 messages: defineMessages({
+                  fullName: {
+                    id: 'field.taxon_common.termPrefForLang.fullName',
+                    defaultMessage: 'Term preferred for lang',
+                  },
                   name: {
                     id: 'field.taxon_common.termPrefForLang.name',
                     defaultMessage: 'Preferred for lang',
@@ -246,13 +306,17 @@ export default (configContext) => {
             termSource: {
               [config]: {
                 messages: defineMessages({
+                  fullName: {
+                    id: 'field.taxon_common.termSource.fullName',
+                    defaultMessage: 'Term source name',
+                  },
+                  groupName: {
+                    id: 'field.taxon_common.termSource.groupName',
+                    defaultMessage: 'Source name',
+                  },
                   name: {
                     id: 'field.taxon_common.termSource.name',
                     defaultMessage: 'Name',
-                  },
-                  fullName: {
-                    id: 'field.taxon_common.termSource.fullName',
-                    defaultMessage: 'Source name',
                   },
                 }),
                 view: {
@@ -266,6 +330,14 @@ export default (configContext) => {
             termSourceDetail: {
               [config]: {
                 messages: defineMessages({
+                  fullName: {
+                    id: 'field.taxon_common.termSourceDetail.fullName',
+                    defaultMessage: 'Term source detail',
+                  },
+                  groupName: {
+                    id: 'field.taxon_common.termSourceDetail.groupName',
+                    defaultMessage: 'Source detail',
+                  },
                   name: {
                     id: 'field.taxon_common.termSourceDetail.name',
                     defaultMessage: 'Detail',
@@ -279,6 +351,14 @@ export default (configContext) => {
             termSourceID: {
               [config]: {
                 messages: defineMessages({
+                  fullName: {
+                    id: 'field.taxon_common.termSourceID.fullName',
+                    defaultMessage: 'Term source ID',
+                  },
+                  groupName: {
+                    id: 'field.taxon_common.termSourceID.groupName',
+                    defaultMessage: 'Source ID',
+                  },
                   name: {
                     id: 'field.taxon_common.termSourceID.name',
                     defaultMessage: 'ID',
@@ -292,6 +372,14 @@ export default (configContext) => {
             termSourceNote: {
               [config]: {
                 messages: defineMessages({
+                  fullName: {
+                    id: 'field.taxon_common.termSourceNote.fullName',
+                    defaultMessage: 'Term source note',
+                  },
+                  groupName: {
+                    id: 'field.taxon_common.termSourceNote.groupName',
+                    defaultMessage: 'Source note',
+                  },
                   name: {
                     id: 'field.taxon_common.termSourceNote.name',
                     defaultMessage: 'Note',
@@ -390,13 +478,13 @@ export default (configContext) => {
             taxonAuthor: {
               [config]: {
                 messages: defineMessages({
-                  name: {
-                    id: 'field.taxon_common.taxonAuthor.name',
-                    defaultMessage: 'Name',
-                  },
                   fullName: {
                     id: 'field.taxon_common.taxonAuthor.fullName',
                     defaultMessage: 'Author name',
+                  },
+                  name: {
+                    id: 'field.taxon_common.taxonAuthor.name',
+                    defaultMessage: 'Name',
                   },
                 }),
                 view: {
@@ -410,6 +498,10 @@ export default (configContext) => {
             taxonAuthorType: {
               [config]: {
                 messages: defineMessages({
+                  fullName: {
+                    id: 'field.taxon_common.taxonAuthorType.fullName',
+                    defaultMessage: 'Author type',
+                  },
                   name: {
                     id: 'field.taxon_common.taxonAuthorType.name',
                     defaultMessage: 'Type',
@@ -557,13 +649,13 @@ export default (configContext) => {
             commonNameSource: {
               [config]: {
                 messages: defineMessages({
-                  name: {
-                    id: 'field.taxon_common.commonNameSource.name',
-                    defaultMessage: 'Source',
-                  },
                   fullName: {
                     id: 'field.taxon_common.commonNameSource.fullName',
                     defaultMessage: 'Common name source',
+                  },
+                  name: {
+                    id: 'field.taxon_common.commonNameSource.name',
+                    defaultMessage: 'Source',
                   },
                 }),
                 view: {
@@ -577,6 +669,10 @@ export default (configContext) => {
             commonNameSourceDetail: {
               [config]: {
                 messages: defineMessages({
+                  fullName: {
+                    id: 'field.taxon_common.commonNameSourceDetail.fullName',
+                    defaultMessage: 'Common name source detail',
+                  },
                   name: {
                     id: 'field.taxon_common.commonNameSourceDetail.name',
                     defaultMessage: 'Source detail',
