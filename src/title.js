@@ -1,4 +1,4 @@
-export default configContext => (data) => {
+export default (configContext) => (data) => {
   const {
     deepGet,
     getPart,
@@ -17,5 +17,5 @@ export default configContext => (data) => {
   const displayName = deepGet(common, ['taxonTermGroupList', 'taxonTermGroup', 0, 'termDisplayName']);
   const termStatus = deepGet(common, ['taxonTermGroupList', 'taxonTermGroup', 0, 'termStatus']);
 
-  return [displayName, termStatus].filter(part => !!part).join(' – ');
+  return [displayName, termStatus].filter((part) => !!part).join(' – ');
 };

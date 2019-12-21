@@ -6,7 +6,7 @@ export default {
   objectName: 'Taxon',
   documentName: 'taxon',
 
-  quickAddData: values => ({
+  quickAddData: (values) => ({
     document: {
       'ns2:taxon_common': {
         '@xmlns:ns2': 'http://collectionspace.org/services/taxonomy',

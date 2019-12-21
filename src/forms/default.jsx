@@ -95,7 +95,7 @@ const template = (configContext) => {
   );
 };
 
-export default configContext => ({
+export default (configContext) => ({
   messages: defineMessages({
     name: {
       id: 'form.taxon.default.name',
