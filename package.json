@@ -1,6 +1,6 @@
 {
   "name": "cspace-ui-plugin-record-taxon",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Taxon record plugin for the CollectionSpace UI",
   "author": "Ray Lee <ray.lee@lyrasis.org>",
   "license": "ECL-2.0",
@@ -56,7 +56,7 @@
     "chai-immutable": "^1.6.0",
     "coveralls": "^3.0.2",
     "cross-env": "^2.0.0",
-    "cspace-ui": "^3.2.0-rc.9",
+    "cspace-ui": "^4.0.0-rc.1",
     "css-loader": "^2.1.1",
     "eslint": "^6.7.2",
     "eslint-config-airbnb": "^18.0.1",
