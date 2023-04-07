@@ -1,6 +1,7 @@
 # cspace-ui-plugin-record-taxon
 
-[![build status](https://travis-ci.org/collectionspace/cspace-ui-plugin-record-taxon.js.svg?branch=master)](https://travis-ci.org/collectionspace/cspace-ui-plugin-record-taxon.js)
+[![npm package](https://img.shields.io/npm/v/cspace-ui-plugin-record-taxon.svg)](https://www.npmjs.com/package/cspace-ui-plugin-record-taxon)
+[![continuous integration](https://github.com/collectionspace/cspace-ui-plugin-record-taxon.js/actions/workflows/ci-js.yml/badge.svg?branch=master&event=push)](https://github.com/collectionspace/cspace-ui-plugin-record-taxon.js/actions/workflows/ci-js.yml)
 
 Taxon record plugin for the CollectionSpace UI.
 
